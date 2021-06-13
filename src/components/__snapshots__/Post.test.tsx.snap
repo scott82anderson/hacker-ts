@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post snapshot 1`] = `
+<li
+  className="py-6 border-b border-gray-100"
+>
+  <a
+    className="font-semibold text-blue-900 dark:text-yellow-500 underline hover:no-underline"
+    href="https://www.google.com"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Post title
+  </a>
+  <div
+    className="meta-info-light"
+  >
+    <span>
+      by 
+      <a
+        className="text-blue-900 dark:text-yellow-500 underline hover:no-underline"
+        href="/user?id=author"
+        onClick={[Function]}
+      >
+        author
+      </a>
+    </span>
+    <span
+      className="font-semibold"
+    >
+       on 
+      01/01/2000, 9:00 pm
+    </span>
+    <span>
+       with 
+      <a
+        className="text-blue-900 dark:text-yellow-500 underline hover:no-underline"
+        href="/post?id=1"
+        onClick={[Function]}
+      >
+        10
+      </a>
+       comments
+    </span>
+  </div>
+</li>
+`;
